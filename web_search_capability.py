@@ -300,7 +300,8 @@ class WebSearchEngine:
             data = response.json()
             
             results = []
-            for i, result in enumerate(data.get('query', {}).get('search', [])[:num_results]):
+            search_data = data.get('query', {})
+            for i, result in enumerate(search_data.get('search', [])[:num_results]):
                 search_result = WebSearchResult(
                     url=f"https://en.wikipedia.org/wiki/{result.get('title', '').replace(' ', '_')}",
                     title=result.get('title', ''),
@@ -316,13 +317,13 @@ class WebSearchEngine:
             print(f"⚠️ Wikipedia search error: {e}")
             return []
     
-    def extract_answer_from_results(self, results: List[WebSearchResult], query: SearchQuery) -> Optional[str]:
+    def extract_answer_from_results(self, results: List[WebSearchResult], search_query: SearchQuery) -> Optional[str]:
         """
         Extract answer from search results based on query type
         
         Args:
             results: List of search results
-            query: Original SearchQuery object
+            search_query: Original SearchQuery object
             
         Returns:
             Extracted answer or None
@@ -330,10 +331,10 @@ class WebSearchEngine:
         if not results:
             return None
         
-        question_lower = query.question.lower()
+        question_lower = search_query.question.lower()
+        query_type = search_query.query_type
         
         # For numerical queries, extract numbers
-        if query_type == 'numerical':
             for result in results:
                 # Try to find answer in snippet or title
                 text_to_search = result.snippet + ' ' + result.title
@@ -345,13 +346,13 @@ class WebSearchEngine:
                     
                     # Check for calculation indicators
                     if 'multiply' in question_lower or '*' in question_lower:
-                        # For multiplication, look for factors
+                        # For multiplication, look for 2-3 numbers
                         nums = [float(n) for n in numbers]
                         # Try to find 2-3 numbers
                         if len(nums) >= 2 and question_lower.count('*') == 1:
                             # Multiplication
                             result_value = nums[0] * nums[1]
-                            return str(int(result_value) if result_value.is_integer() else f"{result_value:.2f}"
+                            return str(int(result_value)) if result_value.is_integer() else f"{result_value:.2f}"
                     
                     # Return largest number if no clear calculation
                     numbers_sorted = sorted([float(n) for n in numbers])
