@@ -47,4 +47,8 @@ htmlcov/
 
 # Benchmark results
 gaia_benchmark_results.json
+gaia_official_results.json
 *.log
+
+# GAIA dataset (large files)
+gaia_data/
