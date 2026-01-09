@@ -115,8 +115,8 @@ class TetrahedralLayer(nn.Module):
         self.dropout = nn.Dropout(0.1)
     
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        # Self-attention
-        attn_out, _ = self.attention(x)
+        # Self-attention (query, key, value are all the same for self-attention)
+        attn_out, _ = self.attention(x, x, x)
         x = self.norm1(x + self.dropout(attn_out))
         
         # Feed-forward
@@ -181,9 +181,13 @@ class ProductionTetrahedralModel(nn.Module):
         tool_pred = torch.sigmoid(self.tool_head(x))
         multimodal_pred = torch.sigmoid(self.multimodal_head(x))
         
-        # Memory integration
-        memory_attn = torch.matmul(x, self.memory.T)
-        x = x + 0.1 * memory_attn
+        # Memory integration via attention
+        # x: [batch, seq_len, hidden_dim], memory: [memory_slots, hidden_dim]
+        memory_attn_weights = torch.softmax(torch.matmul(x, self.memory.T) / (self.config.hidden_dim ** 0.5), dim=-1)
+        # memory_attn_weights: [batch, seq_len, memory_slots]
+        memory_context = torch.matmul(memory_attn_weights, self.memory)
+        # memory_context: [batch, seq_len, hidden_dim]
+        x = x + 0.1 * memory_context
         
         # Output projection
         output_logits = self.output_projection(x)
@@ -195,7 +199,7 @@ class ProductionTetrahedralModel(nn.Module):
             'visual': visual_pred,
             'tool_use': tool_pred,
             'multimodal': multimodal_pred,
-            'memory_integration': memory_attn
+            'memory_integration': memory_context
         }
 
 
@@ -251,7 +255,23 @@ class GAIATrainer:
                     levels: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, torch.Tensor]]:
         """Compute multi-task loss"""
         # Main prediction loss
-        main_loss = self.criterion(outputs['output_logits'], targets)
+        # outputs['output_logits'] shape: [batch, seq_len, vocab_size]
+        # targets shape: [batch] or [batch, target_len]
+        
+        # Handle different target shapes
+        if targets.dim() == 1:
+            # targets is [batch], use first position prediction
+            logits = outputs['output_logits'][:, 0, :]  # [batch, vocab_size]
+            main_loss = self.criterion(logits, targets)
+        else:
+            # targets is [batch, target_len], need to align lengths
+            batch_size, target_len = targets.shape
+            logits = outputs['output_logits'][:, :target_len, :]  # [batch, target_len, vocab_size]
+            # Reshape for cross entropy: [batch * target_len, vocab_size] vs [batch * target_len]
+            main_loss = self.criterion(
+                logits.reshape(-1, logits.size(-1)),
+                targets.reshape(-1)
+            )
         
         # Capability losses
         logical_loss = torch.mean((outputs['logical'] - self.config.target_logical) ** 2)
@@ -462,7 +482,7 @@ def create_collate_fn(tokenizer):
         
         return {
             'input_ids': inputs['input_ids'],
-            'targets': answer_encoding['input_ids'].squeeze(),
+            'targets': answer_encoding['input_ids'],  # Keep [batch, target_len] shape
             'levels': torch.tensor(levels)
         }
     
@@ -527,7 +547,7 @@ def main():
     )
     
     # Initialize trainer
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = 'mps' if torch.backends.mps.is_available() else ('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Training device: {device}")
     
     trainer = GAIATrainer(config, device=device)
