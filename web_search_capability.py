@@ -208,6 +208,8 @@ class WebSearchEngine:
         """
         self.search_count += 1
         
+        print(f"🔍 Searching: {query.query} (Query type: {query.query_type}, Confidence: {query.confidence:.2f})")
+        
         # Check cache
         cache_key = self._get_cache_key(query.query)
         if cache_key in self.cache:
@@ -331,11 +333,29 @@ class WebSearchEngine:
         question_lower = query.question.lower()
         
         # For numerical queries, extract numbers
-        if query.query_type == 'numerical':
+        if query_type == 'numerical':
             for result in results:
-                numbers = re.findall(r'\d+\.?\d*', result.snippet + result.title)
+                # Try to find answer in snippet or title
+                text_to_search = result.snippet + ' ' + result.title
+                numbers = re.findall(r'\d+\.?\d*', text_to_search)
                 if numbers:
-                    return numbers[-1]  # Return most relevant number
+                    # Find most reasonable answer
+                    # Prefer numbers that match the question pattern
+                    question_lower = search_query.question.lower()
+                    
+                    # Check for calculation indicators
+                    if 'multiply' in question_lower or '*' in question_lower:
+                        # For multiplication, look for factors
+                        nums = [float(n) for n in numbers]
+                        # Try to find 2-3 numbers
+                        if len(nums) >= 2 and question_lower.count('*') == 1:
+                            # Multiplication
+                            result_value = nums[0] * nums[1]
+                            return str(int(result_value) if result_value.is_integer() else f"{result_value:.2f}"
+                    
+                    # Return largest number if no clear calculation
+                    numbers_sorted = sorted([float(n) for n in numbers])
+                    return str(int(numbers_sorted[-1])) if numbers_sorted[-1].is_integer() else numbers_sorted[-1]
         
         # For temporal queries, extract dates/years
         elif query.query_type == 'temporal':
@@ -371,12 +391,14 @@ class WebSearchEngine:
     
     def get_statistics(self) -> Dict[str, Any]:
         """Get search engine statistics"""
+        cache_hit_rate = self.cache_hits / self.search_count if self.search_count > 0 else 0
         return {
             'search_count': self.search_count,
             'cache_hits': self.cache_hits,
-            'cache_hit_rate': self.cache_hits / self.search_count if self.search_count > 0 else 0,
+            'cache_hit_rate': cache_hit_rate,
             'cache_size': len(self.cache),
-            'primary_engine': self.primary_engine
+            'primary_engine': self.primary_engine,
+            'cache_hit_rate_pct': f"{cache_hit_rate:.1%}%"
         }
 
 
