@@ -52,3 +52,9 @@ gaia_official_results.json
 
 # GAIA dataset (large files)
 gaia_data/
+
+# Virtual environments
+gaia_env/
+venv/
+env/
+.venv/
