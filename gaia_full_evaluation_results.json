@@ -1,0 +1,14 @@
+{
+  "model_name": "64-Point Tetrahedral AI (Enhanced)",
+  "split": "validation",
+  "total_questions": 165,
+  "correct_answers": 0,
+  "overall_score": 0.0,
+  "execution_time": 0.27481508255004883,
+  "level_results": {
+    "level_1_score": 0.0,
+    "level_2_score": 0.0,
+    "level_3_score": 0.0
+  },
+  "timestamp": 1767980237.5534499
+}
