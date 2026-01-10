@@ -1,0 +1,1179 @@
+{
+  "total": 165,
+  "correct": 14,
+  "by_level": {
+    "1": {
+      "total": 53,
+      "correct": 6,
+      "accuracy": 11.320754716981133
+    },
+    "2": {
+      "total": 86,
+      "correct": 6,
+      "accuracy": 6.976744186046512
+    },
+    "3": {
+      "total": 26,
+      "correct": 2,
+      "accuracy": 7.6923076923076925
+    }
+  },
+  "predictions": [
+    {
+      "question": "A paper about AI regulation that was originally submitted to arXiv.org in June 2",
+      "expected": "egalitarian",
+      "predicted": "egalitarian",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "I\u2019m researching species that became invasive after people who kept them as pets ",
+      "expected": "34689",
+      "predicted": "67589",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "If we assume all articles published by Nature in 2020 (articles, only, not book ",
+      "expected": "41",
+      "predicted": "15",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In Unlambda, what exact charcter or text needs to be added to correct the follow",
+      "expected": "backtick",
+      "predicted": "f",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, h",
+      "expected": "17",
+      "predicted": "2",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The attached spreadsheet shows the inventory for a movie and video game rental s",
+      "expected": "time-parking 2: parallel universe",
+      "predicted": "the last of us: part ii",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "How many studio albums were published by Mercedes Sosa between 2000 and 2009 (in",
+      "expected": "3",
+      "predicted": "4",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The object in the British Museum's collection with a museum number of 2012,5015.",
+      "expected": "142",
+      "predicted": "34",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "According to github, when was Regression added to the oldest closed numpy.polyno",
+      "expected": "04/15/18",
+      "predicted": "03/15/2019",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Here's a fun riddle that I think you'll enjoy.\n\nYou have been selected to play t",
+      "expected": "3",
+      "predicted": "7",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "In July 2, 1959 United States standards for grades of processed fruits, vegetabl",
+      "expected": "86",
+      "predicted": "86",
+      "correct": true,
+      "level": 3
+    },
+    {
+      "question": "Using the Biopython library in Python, parse the PDB file of the protein identif",
+      "expected": "1.456",
+      "predicted": "0.391",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What are the EC numbers of the two most commonly used chemicals for the virus te",
+      "expected": "3.1.3.1; 1.11.1.7",
+      "predicted": "74.1-38-9; 52.1-38-9",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In April of 1977, who was the Prime Minister of the first place mentioned by nam",
+      "expected": "morarji desai",
+      "predicted": "eliud vereshchagin",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What's the last line of the rhyme under the flavor name on the headstone visible",
+      "expected": "so we had to let it die.",
+      "predicted": "the flavor was first made in 1968.",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Use density measures from the chemistry materials licensed by Marisa Alviar-Agne",
+      "expected": "6",
+      "predicted": "4",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What was the volume in m^3 of the fish bag that was calculated in the University",
+      "expected": "0.1777",
+      "predicted": "0.25",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What is the average number of pre-2020 works on the open researcher and contribu",
+      "expected": "26.4",
+      "predicted": "1.47",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest nu",
+      "expected": "3",
+      "predicted": "3",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "Of the authors (First M. Last) that worked on the paper \"Pie Menus or Linear Men",
+      "expected": "mapping human oriented information to software agents for online systems usage",
+      "predicted": "theorem with proof",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "When you take the average of the standard population deviation of the red number",
+      "expected": "17.056",
+      "predicted": "0.476",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Assuming scientists in the famous youtube video The Thinking Machine (Artificial",
+      "expected": "claude shannon",
+      "predicted": "alan turing",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "In Series 9, Episode 11 of Doctor Who, the Doctor is trapped inside an ever-shif",
+      "expected": "the castle",
+      "predicted": "the maze runner",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "In terms of geographical distance between capital cities, which 2 countries are ",
+      "expected": "indonesia, myanmar",
+      "predicted": "indonesia, malaysia",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the NCATS PubChem compound database for Food Additive Status classification, ",
+      "expected": "4192",
+      "predicted": "2879",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "I need to fact-check a citation. This is the citation from the bibliography:\n\nGr",
+      "expected": "cloak",
+      "predicted": "mis-transmitted",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Which contributor to the version of OpenCV where support was added for the Mask-",
+      "expected": "li peng",
+      "predicted": "xiaoping gao",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What integer-rounded percentage of the total length of the harlequin shrimp reco",
+      "expected": "22",
+      "predicted": "85",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "An office held a Secret Santa gift exchange where each of its twelve employees w",
+      "expected": "fred",
+      "predicted": "john",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What is the maximum length in meters of #9 in the first National Geographic shor",
+      "expected": "1.8",
+      "predicted": "1075",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What two-word type of model did Manash Pratim Kashyap's and PS Fader's studies i",
+      "expected": "beta geometric",
+      "predicted": "neural",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What animals that were mentioned in both Ilias Lagkouvardos's and Olga Tapia's p",
+      "expected": "mice",
+      "predicted": "penguin",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "How many High Energy Physics - Lattice articles listed in January 2020 on Arxiv ",
+      "expected": "31",
+      "predicted": "1",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The photograph in the Whitney Museum of American Art's collection with accession",
+      "expected": "russian-german legion",
+      "predicted": "united states army",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": ".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu u",
+      "expected": "right",
+      "predicted": "the word that starts with the letter t and ends with the letter e is \"terry\".",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What is the minimum number of page links a person must click on to go from the e",
+      "expected": "2",
+      "predicted": "14",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Each cell in the attached spreadsheet represents a plot of land. The color of th",
+      "expected": "no",
+      "predicted": "yes",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Which of the text elements under CATEGORIES in the XML would contain the one foo",
+      "expected": "soups and stews",
+      "predicted": "beverages",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "I went to Virtue restaurant & bar in Chicago for my birthday on March 22, 2021 a",
+      "expected": "shrimp",
+      "predicted": "pork",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "\u00ac(A \u2227 B) \u2194 (\u00acA \u2228 \u00acB)\n\u00ac(A \u2228 B) \u2194 (\u00acA \u2227 \u00acB)\n(A \u2192 B) \u2194 (\u00acB \u2192 \u00acA)\n(A \u2192 B) \u2194 (\u00acA \u2228 B)",
+      "expected": "(\u00aca \u2192 b) \u2194 (a \u2228 \u00acb)",
+      "predicted": "(a \u2192 b) \u2194 (\u00acb \u2192 \u00aca)",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "My family reunion is this week, and I was assigned the mashed potatoes to bring.",
+      "expected": "2",
+      "predicted": "3",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar'",
+      "expected": "fluffy",
+      "predicted": "fear",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "It is 1999. Before you party like it is 1999, please assist me in settling a bet",
+      "expected": "harbinger, tidal",
+      "predicted": "the last goodbye, the way we were",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what coun",
+      "expected": "guatemala",
+      "predicted": "russia",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "In the 2018 VSCode blog post on replit.com, what was the command they clicked on",
+      "expected": "format document",
+      "predicted": "undo",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Compute the check digit the Tropicos ID for the Order Helotiales would have if i",
+      "expected": "3",
+      "predicted": "7",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What time was the Tri-Rail train that carried the most passengers on May 27, 201",
+      "expected": "6:41 pm",
+      "predicted": "6:35 pm",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Could you help me out with this assignment? Our professor sprung it on us at the",
+      "expected": "to be or not to be that is the question whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune",
+      "predicted": "the quick brown fox jumps over the lazy dog",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "How many applicants for the job in the PDF are only missing a single qualificati",
+      "expected": "17",
+      "predicted": "1",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In Valentina Re\u2019s contribution to the 2017 book \u201cWorld Building: Transmedia, Fan",
+      "expected": "a nightmare on elm street",
+      "predicted": "the conjuring",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the fictional language of Tizin, basic sentences are arranged with the Verb f",
+      "expected": "maktay mato apple",
+      "predicted": "maktay apple",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The Metropolitan Museum of Art has a portrait in its collection with an accessio",
+      "expected": "alfonso visconti",
+      "predicted": "gregory i of egypt",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In Nature journal's Scientific Reports conference proceedings from 2012, in the ",
+      "expected": "diamond",
+      "predicted": "titanium dioxide",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The attached file contains a list of vendors in the Liminal Springs mall, along ",
+      "expected": "finance",
+      "predicted": "hotel",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "According to Google Finance, when was the first year the Apple stock went above ",
+      "expected": "2018",
+      "predicted": "1986",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Review the chess position provided in the image. It is black's turn. Provide the",
+      "expected": "rd5",
+      "predicted": "e4",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "According to Box Office Mojo's 2020 Worldwide Box Office list, how many of the t",
+      "expected": "6",
+      "predicted": "3",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the year 2022, and before December, what does \"R\" stand for in the three core",
+      "expected": "research",
+      "predicted": "regulations",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Who nominated the only Featured Article on English Wikipedia about a dinosaur th",
+      "expected": "funkmonk",
+      "predicted": "the article was written by david suzuki",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2",
+      "expected": "annie levin",
+      "predicted": "john updike",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "How many pages if the 2023 IPCC report (85 pages version) mentions nuclear energ",
+      "expected": "0",
+      "predicted": "14",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Given this table defining * on the set S = {a, b, c, d, e}\n\n|*|a|b|c|d|e|\n|---|-",
+      "expected": "b, e",
+      "predicted": "a,b,d",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The following numbers function similarly to ISBN 13 numbers, however, their vali",
+      "expected": "7, 9",
+      "predicted": "1, 3",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "How many images are there in the latest 2022 Lego english wikipedia article?",
+      "expected": "13",
+      "predicted": "13",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "The attached file shows a list of books in the collection of Scribe County Publi",
+      "expected": "7",
+      "predicted": "10",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "I was trying to remember how well the Cheater Beater performed in comparison to ",
+      "expected": "101.376, 84.348",
+      "predicted": "1200, 1500",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "As a comma separated list with no whitespace, using the provided image provide a",
+      "expected": "3/4,1/4,3/4,3/4,2/4,1/2,5/35,7/21,30/5,30/5,3/4,1/15,1/3,4/9,1/8,32/23,103/170",
+      "predicted": "0/3, 2/5, 4/7, 6/9, 8/11, 10/13, 12/15, 14/17, 16/19, 18/21, 20/23, 22/25, 24/27, 26/29, 28/31, 29/33, 30/35, 32/37, 34/39, 36/4",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "On a leap day before the year 2008, a joke was removed from the Wikipedia page f",
+      "expected": "here be dragons",
+      "predicted": "i'm not sure what it was, i think it was \"i'm not sure\" or something like that.",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What is the volume in milliliters of a system comprised of 0.312 kg Freon-12 ref",
+      "expected": "55",
+      "predicted": "479",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "The Latin root of the Yola word \"gimlie\" shares a spelling with a Spanish word. ",
+      "expected": "the world of the twenty first century",
+      "predicted": "how do you like the movie the godfather?",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "Find the value of x to the nearest tenth: Lx = (d/dx * (A * x-squared)) + 4-thou",
+      "expected": "563.9",
+      "predicted": "19.5",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the endnote found in the second-to-last paragraph of page 11 of the book with",
+      "expected": "4",
+      "predicted": "15",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Using bass clef notes, what is the age of someone who has experienced the word s",
+      "expected": "90",
+      "predicted": "13",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "On July 15, 2008, Phys.org published an article about a catastrophe. Find the ex",
+      "expected": "bravo",
+      "predicted": "little rock",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The attached file lists accommodations in the resort town of Seahorse Island. Ba",
+      "expected": "shelley's place",
+      "predicted": "seahorse island resort",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the NIH translation of the original 1913 Michaelis-Menten Paper, what is the ",
+      "expected": "0.0424",
+      "predicted": "0.0264",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "How many edits were made to the Wikipedia page on Antidisestablishmentarianism f",
+      "expected": "2732",
+      "predicted": "1679",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "You are a telecommunications engineer who wants to build cell phone towers on a ",
+      "expected": "3",
+      "predicted": "3",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "If there is anything that doesn't make sense in the instructions, write the word",
+      "expected": "guava",
+      "predicted": "guava",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "I was referencing each of the tables in the file from papers that were cited by ",
+      "expected": "8, 29, 22, 1, 8, 26",
+      "predicted": "2, 4, 6, 8",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "How many nonindigenous crocodiles were found in Florida from the year 2000 throu",
+      "expected": "6",
+      "predicted": "13",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The work referenced in footnote 397 of Federico Lauria's 2014 dissertation is al",
+      "expected": "8",
+      "predicted": "5",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "As of the 2020 census, what was the population difference between the largest co",
+      "expected": "736455",
+      "predicted": "138974",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "How many slides in this PowerPoint presentation mention crustaceans?",
+      "expected": "4",
+      "predicted": "2",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What percentage of the total penguin population according to the upper estimates",
+      "expected": "0.00033",
+      "predicted": "69.7587",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "Given $x_0 = -5$ and $f(x) = x^3 + 4x^2 - 3x + 8$, what is the smallest $n$ wher",
+      "expected": "2",
+      "predicted": "2",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "You are Van Helsing, a renowned vampire hunter. A Count of Moldova, La\u021bcu IV, so",
+      "expected": "100",
+      "predicted": "25",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.\n\nWhat does Tea",
+      "expected": "extremely",
+      "predicted": "yes",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The attached file shows the locomotives in the collection of a North American ra",
+      "expected": "60",
+      "predicted": "140",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "This is a secret message my friend gave me. It says where we should meet for our",
+      "expected": "picnic is in ploybius plaza.",
+      "predicted": "we will meet at the top of the hill.",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What is the area of the green polygon in the attached file? The numbers in purpl",
+      "expected": "39",
+      "predicted": "14.75",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "According to wikipedia, how many Asian countries still have a monarchy and acces",
+      "expected": "12",
+      "predicted": "4",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "The attached spreadsheet contains the sales of menu items for a regional fast-fo",
+      "expected": "wharvton",
+      "predicted": "wharvton",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "Who composed the song that was performed by a rooster and a hamster in separate ",
+      "expected": "roger miller",
+      "predicted": "john lennon",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "You are given this Excel file as a map. You start on the START cell and move tow",
+      "expected": "f478a7",
+      "predicted": "ff0000",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "I thought we could try a fun word puzzle together :)\n\nI've got a Boggle board he",
+      "expected": "briniest",
+      "predicted": "the longest word that can be generated from the board is \"ionis\".",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "What is the surname of the equine veterinarian mentioned in 1.E Exercises from t",
+      "expected": "louvrier",
+      "predicted": "kleinpaul",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "According to the World Bank, which countries had gross savings of over 35% of GD",
+      "expected": "brunei, china, morocco, singapore",
+      "predicted": "australia, china, india",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "I\u2019m thinking about selling my home, so I want to learn more about how homes in m",
+      "expected": "900000",
+      "predicted": "350000",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "I'm making a grocery list for my mom, but she's a professor of botany and she's ",
+      "expected": "broccoli, celery, fresh basil, lettuce, sweet potatoes",
+      "predicted": "carrots, cucumbers, tomatoes, peppers, pumpkins, asparagus",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "How many times was a Twitter/X post cited as a reference on the english Wikipedi",
+      "expected": "3",
+      "predicted": "1",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "On ScienceDirect, what is the difference to 3 decimal places in the sample stand",
+      "expected": "0.269",
+      "predicted": "0.147",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What is the last word before the second chorus of the King of Pop's fifth single",
+      "expected": "stare",
+      "predicted": "the end",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Look at the attached image. The quiz is scored as follows:\n\nProblems that ask th",
+      "expected": "85",
+      "predicted": "35",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Which of the fruits shown in the 2008 painting \"Embroidery from Uzbekistan\" were",
+      "expected": "pears, bananas",
+      "predicted": "pears, bananas",
+      "correct": true,
+      "level": 3
+    },
+    {
+      "question": "Hi, I'm making a pie but I could use some help with my shopping list. I have eve",
+      "expected": "cornstarch, freshly squeezed lemon juice, granulated sugar, pure vanilla extract, ripe strawberries",
+      "predicted": "milk, sugar, eggs, vanilla extract, fresh strawberries",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The attached image contains a Python script. Run the Python code against an arra",
+      "expected": "47",
+      "predicted": "17",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "I have the Standard plan in the image below, and I just uploaded 60 equally size",
+      "expected": "0.03",
+      "predicted": "3.57",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The attached PDF lists accommodations in the resort community of Seahorse Island",
+      "expected": "hotels",
+      "predicted": "hotel",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The year is 2022. I am at the National Air and Space Museum east of the Potomac ",
+      "expected": "8",
+      "predicted": "4",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "In the Scikit-Learn July 2017 changelog, what other predictor base command recei",
+      "expected": "baselabelpropagation",
+      "predicted": "linearregression",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "It's May 2023, and I'm about to drive across the U.S. from California to Maine. ",
+      "expected": "8",
+      "predicted": "6",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Who did the actor who played Ray in the Polish-language version of Everybody Lov",
+      "expected": "wojciech",
+      "predicted": "wojciech",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "What is the latest chronological year date written in the image on the webpage f",
+      "expected": "1927",
+      "predicted": "1974",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The YouTube channel Game Grumps began a Let\u2019s Play of the game Sonic the Hedgeho",
+      "expected": "4",
+      "predicted": "3",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "This spreadsheet contains a list of clients for a retractable awning company. Ea",
+      "expected": "8",
+      "predicted": "14",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what specie",
+      "expected": "rockhopper penguin",
+      "predicted": "penguin",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The book with the doi 10.1353/book.24372 concerns a certain neurologist. Accordi",
+      "expected": "kleinpaul",
+      "predicted": "kleinpaul",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "The longest-lived vertebrate is named after an island.  According to Wikipedia a",
+      "expected": "56000",
+      "predicted": "35000",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What is the final numeric output from the attached Python code?",
+      "expected": "0",
+      "predicted": "20",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "On the DeepFruits fruit detection graph on Connected Papers from 2016, what feat",
+      "expected": "citations",
+      "predicted": "the color of the fruits in the image.",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "During the first week of August 2015, one of the NASA Astronomy Pictures of the ",
+      "expected": "holabird",
+      "predicted": "schindler & associates",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "How many more blocks (also denoted as layers) in BERT base encoder than the enco",
+      "expected": "6",
+      "predicted": "2",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Bob was invited to participate in a game show, and he advanced to the final roun",
+      "expected": "16000",
+      "predicted": "$45000",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Pull out the sentence in the following 5x7 block of text. Read from left to righ",
+      "expected": "the seagull glided peacefully to my chair.",
+      "predicted": "the quick brown fox jumps over the lazy dog",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "All of the individuals who formally held the position of United States secretary",
+      "expected": "santa clara, boston",
+      "predicted": "denver, los angeles",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The attached spreadsheet contains a list of books I read in the year 2022. What ",
+      "expected": "out of the silent planet",
+      "predicted": "the last book on time and place",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "Consider the following symbols: \ud809\udc1c  \ud809\udc10\ud809\udc1a\n\nThis is a number written using the Mesopo",
+      "expected": "536",
+      "predicted": "107",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "On Cornell Law School website's legal information institute, under the fifth sec",
+      "expected": "inference",
+      "predicted": "evidence",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "According to the USGS, in what year was the American Alligator first found west ",
+      "expected": "1954",
+      "predicted": "1970",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Of the cities within the United States where U.S. presidents were born, which tw",
+      "expected": "braintree, honolulu",
+      "predicted": "albany, chicago",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "Eva Draconis has a personal website which can be accessed on her YouTube page. W",
+      "expected": "war is not here this is a land of peace",
+      "predicted": "the number of days in february after january 15, 2024",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "The brand that makes these harnesses the dogs are wearing in the attached pic sh",
+      "expected": "bacon",
+      "predicted": "beef",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "According to Girls Who Code, how long did it take in years for the percentage of",
+      "expected": "22",
+      "predicted": "20",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What was the complete title of the book in which two James Beard Award winners r",
+      "expected": "five hundred things to eat before it's too late: and the very best places to eat them",
+      "predicted": "the name of the seafood: a culinary journey with ali khan",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "As of August 2023, who is the only winner of the US version of Survivor to be bo",
+      "expected": "michele fitzgerald",
+      "predicted": "katie kowalski",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "How many at bats did the Yankee with the most walks in the 1977 regular season h",
+      "expected": "519",
+      "predicted": "203",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The cover of the August 2021 issue of Vogue shows a famous landmark in the backg",
+      "expected": "185",
+      "predicted": "57",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In Audre Lorde\u2019s poem \u201cFather Son and Holy Ghost\u201d, what is the number of the sta",
+      "expected": "2",
+      "predicted": "2",
+      "correct": true,
+      "level": 1
+    },
+    {
+      "question": "I'm curious about how much information is available for popular video games befo",
+      "expected": "60",
+      "predicted": "3",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The attached spreadsheet lists the locomotives owned by a local railroad museum.",
+      "expected": "berkshire",
+      "predicted": "titanic",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What is the absolute difference in tens of thousands between the population of c",
+      "expected": "116",
+      "predicted": "34",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "The attached file lists the locomotives owned by a local railroad museum. It giv",
+      "expected": "1 in 3",
+      "predicted": "1 in 3",
+      "correct": true,
+      "level": 2
+    },
+    {
+      "question": "Hi, I was out sick from my classes on Friday, so I'm trying to figure out what I",
+      "expected": "132, 133, 134, 197, 245",
+      "predicted": "27, 40, 56, 89, 114",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "When was a picture of St. Thomas Aquinas first added to the Wikipedia page on th",
+      "expected": "19/02/2009",
+      "predicted": "14/07/2015",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "A 5-man group made up of one tank, one healer, and three DPS is doing a dungeon ",
+      "expected": "death knight, hunter, paladin, priest, warlock",
+      "predicted": "healer, tank, priest, druid, mage",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "On June 6, 2023, an article by Carolyn Collins Petersen was published in Univers",
+      "expected": "80gsfc21m0002",
+      "predicted": "84ncei-159700",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "According to Openreview.net, at the NeurIPS 2022 Conference, how many papers by ",
+      "expected": "3",
+      "predicted": "1",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "If this whole pint is made up of ice cream, how many percent above or below the ",
+      "expected": "+4.6",
+      "predicted": "+1.5",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Take the gender split from the 2011 Bulgarian census about those who have comple",
+      "expected": "234.9",
+      "predicted": "4.9",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "What was the actual enrollment count of the clinical trial on H. pylori in acne ",
+      "expected": "90",
+      "predicted": "37",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "I'd like to learn more about some popular reality television competition shows. ",
+      "expected": "21",
+      "predicted": "10",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "Where were the Vietnamese specimens described by Kuznetzov in Nedoshivina's 2010",
+      "expected": "saint petersburg",
+      "predicted": "moscow",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "A standard Rubik\u2019s cube has been broken into cubes making up its sides. The cube",
+      "expected": "green, white",
+      "predicted": "yellow, red",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What country had the least number of athletes at the 1928 Summer Olympics? If th",
+      "expected": "cub",
+      "predicted": "italy",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "I read a paper about multiwavelength observations of fast radio bursts back in M",
+      "expected": "0.2",
+      "predicted": "47",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "Who are the pitchers with the number before and after Taish\u014d Tamai's number as o",
+      "expected": "yoshida, uehara",
+      "predicted": "koizumi, kato",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "The attached Excel file contains the sales of menu items for a local fast-food c",
+      "expected": "89706.00",
+      "predicted": "20793.64",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "What is the first name of the only Malko Competition recipient from the 20th Cen",
+      "expected": "claus",
+      "predicted": "mikael",
+      "correct": false,
+      "level": 1
+    },
+    {
+      "question": "In the YouTube 360 VR video from March 2018 narrated by the voice actor of Lord ",
+      "expected": "100000000",
+      "predicted": "4",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "In NASA's Astronomy Picture of the Day on 2006 January 21, two astronauts are vi",
+      "expected": "white; 5876",
+      "predicted": "kirk; 47:59",
+      "correct": false,
+      "level": 3
+    },
+    {
+      "question": "In the film Goldfinger, what color was the object that James Bond concealed hims",
+      "expected": "orange, white",
+      "predicted": "red, blue",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "As of May 2023, how many stops are between South Station and Windsor Gardens on ",
+      "expected": "10",
+      "predicted": "14",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "In the 2015 Metropolitan Museum of Art exhibition titled after the Chinese zodia",
+      "expected": "11",
+      "predicted": "3",
+      "correct": false,
+      "level": 2
+    },
+    {
+      "question": "At the two-minute mark in the YouTube video uploaded by the channel \u201cGameGrumps\u201d",
+      "expected": "1:41.614",
+      "predicted": "1:06.999",
+      "correct": false,
+      "level": 2
+    }
+  ],
+  "accuracy": 8.484848484848486
+}
